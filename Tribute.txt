@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+body{
+  background-color: gray;
+} 
+
+body,h1,h2,h4,h5,h6 {
+	font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+	color: #2d2d2d;
+    font-family: "Montserrat", sans-serif;
+    style: bold;
+}
+    
+.w3-row-padding img {
+	margin-bottom: 12px
+}
+
+.w3-sidebar {
+	width: 120px;
+    background: darkgray;
+}
+
+#main {
+	margin-left: 120px
+}
+
+@media only screen and (max-width: 600px) {
+	#main {
+    	margin-left: 0
+    }
+}
+    
+p {
+	color: #5e5353;
+    font-family: "Montserrat", sans-serif;
+}
+    
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+</style>
+
+<body class="w3-white">    	
+		<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  		<a href="#home" class="w3-bar-item w3-button w3-padding-large w3-black">
+    		<i class="fa fa-home w3-xxlarge"></i>
+    		<p>HOME</p>
+  		</a>
+  		<a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    		<i class="fa fa-user w3-xxlarge"></i>
+    		<p>ABOUT</p>
+  		</a>
+  		<a href="#video" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    		<i class="fa fa-eye w3-xxlarge"></i>
+    		<p>VIDEO</p>
+  		</a>
+  		<a href="#timeline" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    		<i class="fa fa-envelope w3-xxlarge"></i>
+    		<p>TIMELINE</p>
+  		</a>
+		</nav>
+
+<!-- Navbar on small screens -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+	<div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+		<a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+		<a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+		<a href="#video" class="w3-bar-item w3-button" style="width:25% !important">VIDEO</a>
+		<a href="#timeline" class="w3-bar-item w3-button" style="width:25% !important">TIMELINE</a>
+	</div>
+	</div>
+
+	<div class="w3-padding-large" id="main">
+		<!-- Header -->
+		<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+			<h1 id="title" class="w3-jumbo"><span class="w3-hide-small">Florence</span> Nightingale.</h1>
+			<h4 id="subtitle"> The Lady With the Lamp</h4>
+			<div id ="img-div">
+				<img src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTcxMjcwMjMzMTU4MzMwMDM1/florence-nightingale-gettyimages-2629681.jpg" alt="Florence Nightingale portrait" id="image" class="w3-image" width="992" height="1108">
+				<p id="image-caption">One of the most famous figures in medical history, the nurse's groundbreaking achievements in handwashing, hygiene and sanitation helped revolutionize medicine.</p>
+			</div>
+		</header>
+
+	<div id="tribute-info">
+		<!-- About -->
+		<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+			<h2 class="w3-text-black">Florence Nightingale</h2>
+			<hr style="width:350px" >
+			<p>Florence Nightingale (1820-1910), known as “The Lady With the Lamp,” was a British nurse, social reformer and statistician best known as the founder of modern nursing. Her experiences as a nurse during the Crimean War were foundational in her views about sanitation. She established St. Thomas’ Hospital and the Nightingale Training School for Nurses in 1860. Her efforts to reform healthcare greatly influenced the quality of care in the 19 and 20 centuries.
+			</p>
+		</div>
+  
+		<!-- Video-->
+		<div class="w3-padding-64 w3-content" id="video">
+			<h2 class="w3-text-black">Video</h2>
+			<hr style="width:350px">
+				<!-- Grid -->
+				<div class="w3-row-padding" style="margin:0 -16px">
+					<div class="container">
+						<iframe class="responsive-iframe" iframe width="400" height="315" src="https://www.youtube.com/embed/DOqzW5qALCQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+						<p> This video is about Florence Nightingale Biography in English : Florence Nightingale, OM, RRC, DStJ was an English social reformer and statistician, and the founder of modern nursing. Please watch full video for this motivational history. </p>
+				</div>
+		</div>
+
+		<!-- Timeline Section -->
+		<div class="w3-padding-64 w3-content" id="timeline">
+			<h2 class="w3-text-black">Florence Nightingale's Life Timeline:</h2>
+			<hr style="width:350px">
+				<div id="tribute-info">
+					<h3>12 May 1820</h3>
+					<p>Born in Florence, Italy.</p>
+					<h3>7 February 1837</h3>
+					<p>Dreamt that God told her she had a great mission in life, which led her to think about becoming a nurse.</p>
+					<h3>1844</h3>
+					<p>Announced her decision to take up nursing.</p>
+					<h3>1851</h3>
+					<p>Studied nursing at the Institute of Protestant Deaconesses in Kaiserwerth, Germany.</p>
+					<h3>22 August 1853</h3>
+					<p>Became superintendent at the Institute for the Care of Sick Gentlewomen, in London.</p>
+					<h3>1853-1856</h3>
+					<p>The Crimean War: Russia v. UK, France, Sardinia and the Ottomon Empire about owning territories in the Ottomon Empire.</p>
+					<h3>21 October 1854</h3>
+					<p>Left for the main British camp in the Crimea, along with 38 volunteer nurses trained by Florence.</p>
+					<h3>4 November 1854</h3>
+					<p>Arrived at the Selimiye Barracks in Scutari in Turkey.</p>
+					<h3>May 1855</h3>
+					<p>Became very ill with Crimean fever, a chronic disease.</p>
+					<h3>16 March 1856</h3>
+					<p>Became general superintendent of the Female Nursing Establishment of the Military Hospitals of the Army.</p>
+					<h3>August 1956</h3>
+					<p>Returned to England from Crimea.</p>
+					<h3>September 1856</h3>
+					<p>Visited Queen Victoria and Prince Albert to tell them about the poor conditions of military hospitals and asked that a Royal Commission investigate the health of the British Army.</p>
+					<h3>1858</h3>
+					<p>Published Notes on Matters affecting the Health, Efficiency and Hospital Administration of the British Army.</p>
+					<h3>1858-59</h3>
+					<p>Worked to establish a Royal Commission to investigate health conditions in India.</p>
+					<h3>1859</h3>
+					<p>Published Suggestions for Thought to Searchers after Religious Truths. <br>
+					Published Notes on Nursing: What it is and What it is Not. <br>
+					Became a member of the Royal Statistical Society.</p>
+					<h3>9 July 1860</h3>
+					<p>Opened the Nightingale Training School at St. Thomas' Hospital.</p>
+					<h3>1861</h3>
+					<p>Opened the School of Midwifery Nursing at King’s College Hospital.</p>
+					<h3>1868</h3>
+					<p>Opening of The East London Nursing Society.</p>
+					<h3>1874</h3>
+					<p>Opening of the Workhouse Nursing Association and National Society for Providing Trained Nurses for the Poor.</p>
+					<h3>1883</h3>
+					<p>Awarded the Royal Red Cross by Queen Victoria.</p>
+					<h3>1890</h3>
+					<p>Opening of the Queen's Jubilee Nursing Institute.</p>
+					<h3>1901</h3>
+					<p>Became completely blind.</p>
+					<h3>1904</h3>
+					<p>Appointed a Lady of Grace of the Order of St John.</p>
+					<h3>1907</h3>
+					<p>Awarded the Order of Merit.</p>
+					<h3>1908</h3>
+					<p>Given the Honorary Freedom of the City of London.</p>
+					<h3>1910</h3>
+					<p>Awarded the Badge of Honour by the Norwegian Red Cross Society.</p>
+					<h3>13 August 1910</h3>
+					<p>Died in London, UK.</p>
+				        
+				</div>
+				
+        <div id="quote">
+            "How very little can be done under the spirit of fear."
+            </br> - Florence Nightingale
+        </div>
+   
+		<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+			<hr class="new">
+            <p class="w3-medium">To have a deeper insight about Florence Nightingale, read her <a href="https://www.history.com/topics/womens-history/florence-nightingale-1" target="_blank" id="tribute-link">History Page</a>.</p>
+			
+			<p class="w3-medium">Initial web design/code by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+        </footer>
+		</div>
+  </div>
+  </div>
+
+</body>
+</html>
